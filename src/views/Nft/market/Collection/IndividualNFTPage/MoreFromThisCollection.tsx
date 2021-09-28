@@ -90,6 +90,10 @@ const MoreFromThisCollection: React.FC<MoreFromThisCollectionProps> = ({ collect
     swiperRef.slideTo(index)
   }
 
+  const updateActiveIndex = () => {
+    setActiveIndex(Math.ceil(swiperRef.activeIndex / slidesPerView))
+  }
+
   return (
     <Box pt="56px" mb="52px">
       <Text bold mb="24px">
@@ -109,6 +113,7 @@ const MoreFromThisCollection: React.FC<MoreFromThisCollectionProps> = ({ collect
         <StyledSwiper>
           <Swiper
             onSwiper={setSwiperRef}
+            onActiveIndexChange={updateActiveIndex}
             spaceBetween={16}
             slidesPerView={slidesPerView}
             slidesPerGroup={slidesPerView}
