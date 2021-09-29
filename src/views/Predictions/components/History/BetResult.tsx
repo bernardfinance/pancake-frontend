@@ -61,8 +61,6 @@ const BetResult: React.FC<BetResultProps> = ({ bet, result }) => {
         return 'textSubtle'
       case Result.CANCELED:
         return 'textDisabled'
-      case Result.HOUSE:
-        return 'textDisabled'
       default:
         return 'text'
     }
@@ -76,8 +74,6 @@ const BetResult: React.FC<BetResultProps> = ({ bet, result }) => {
         return t('Lose')
       case Result.CANCELED:
         return t('Canceled')
-      case Result.HOUSE:
-        return t('To Burn')
       default:
         return ''
     }
@@ -102,7 +98,6 @@ const BetResult: React.FC<BetResultProps> = ({ bet, result }) => {
       case Result.LOSE:
         return 'failure'
       case Result.CANCELED:
-      case Result.HOUSE:
       default:
         return 'text'
     }
