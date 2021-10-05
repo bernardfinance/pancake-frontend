@@ -1,6 +1,6 @@
 export default {
   cake: {
-    56: '0xF952Fc3ca7325Cc27D15885d37117676d25BfdA6',
+    56: '0x612b5C1a2d7E94D03Dddd53D459D4b944903497d',
     97: '',
   },
   masterChef: {
@@ -20,7 +20,7 @@ export default {
   lotteryNFT: {
     // 56: '0x5e74094Cd416f55179DBd0E45b1a8ED030e396A1',
     // 97: '0x8175c10383511b3a1C68f9dB222dc14A19CC950e',
-    56: '0xe7376ceFa1bfb2f8Fd15A50d4d52a2E1Dc90D113',
+    56: '0x0b723695a01670a6785BE5f5DEdF2A28493Af940',
     97: '0xe7376ceFa1bfb2f8Fd15A50d4d52a2E1Dc90D113'
   },
   lotteryV2: {
