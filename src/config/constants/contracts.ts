@@ -12,12 +12,21 @@ export default {
     97: '',
   },
   lottery: {
-    56: '',
-    97: '',
+    56: '0xa3d9cF543Cafa98b2dB87278Fba2edC208959571',
+    97: '0x88b14a8dF9e328eb38B923763A40e6F86022339F'
+    // 56: '0x99c2EcD51d52c036B00130d882Bc65f20Fdecf9f',
+    // 97: '0x3C3f2049cc17C136a604bE23cF7E42745edf3b91',
   },
   lotteryNFT: {
-    56: '',
-    97: '',
+    // 56: '0x5e74094Cd416f55179DBd0E45b1a8ED030e396A1',
+    // 97: '0x8175c10383511b3a1C68f9dB222dc14A19CC950e',
+    56: '0xe7376ceFa1bfb2f8Fd15A50d4d52a2E1Dc90D113',
+    97: '0xe7376ceFa1bfb2f8Fd15A50d4d52a2E1Dc90D113'
+  },
+  lotteryV2: {
+    97: '0x88b14a8dF9e328eb38B923763A40e6F86022339F',
+    // 97: '0x4D8B718b4e617ea49bCe6B508c23353Cc7bADd28',
+    56: '0x88b14a8dF9e328eb38B923763A40e6F86022339F',
   },
   mulltiCall: {
     56: '0x1ee38d535d541c55c9dae27b12edf090c608e6fb',

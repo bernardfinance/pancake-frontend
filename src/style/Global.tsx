@@ -12,12 +12,22 @@ const GlobalStyle = createGlobalStyle`
     font-family: 'Kanit', sans-serif;
   }
   body {
-    background-color: ${({ theme }) => theme.colors.background};
+    background-image: url(images/background.jpg);
+    background-size: cover;
 
-    img {
-      height: auto;
-      max-width: 100%;
-    }
+    // img {
+    //   height: auto;
+    //   max-width: 100%;
+    // }
+  }
+  div#root nav{
+    background-color: transparent;
+  }
+  div#root> div:nth-child(1)> div:nth-child(2)> div:nth-child(1){
+    background-color: transparent;
+  }
+  div#root> div:nth-child(1)> div:nth-child(2)> div:nth-child(1)> div:nth-child(2){
+    display: none;
   }
 `
 
