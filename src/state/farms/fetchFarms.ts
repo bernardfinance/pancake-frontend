@@ -110,6 +110,9 @@ const fetchFarms = async () => {
       const allocPoint = new BigNumber(info.allocPoint._hex)
       const poolWeight = allocPoint.div(new BigNumber(totalAllocPoint))
 
+      console.log(allocPoint.toNumber(),poolWeight.toNumber(),allocPoint.div(100).toNumber())
+
+
       return {
         ...farmConfig,
         tokenAmount: tokenAmount.toJSON(),
@@ -118,7 +121,7 @@ const fetchFarms = async () => {
         tokenPriceVsQuote: tokenPriceVsQuote.toJSON(),
         poolWeight: poolWeight.toNumber(),
         multiplier: `${allocPoint.div(100).toString()}X`,
-        depositFeeBP: info.depositFeeBP,
+        depositFeeBP: 0,
         BONESPerBlock: new BigNumber(BONESPerBlock).toNumber(),
       }
     }),

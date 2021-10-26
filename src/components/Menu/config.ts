@@ -12,11 +12,11 @@ const config: MenuEntry[] = [
     items: [
       {
         label: 'Exchange',
-        href: 'https://exchange.goosedefi.com/',
+        href: 'https://satoroswap.finance/',
       },
       {
         label: 'Liquidity',
-        href: 'https://exchange.goosedefi.com/#/pool',
+        href: 'https://satoroswap.finance/#/pool',
       },
     ],
   },
